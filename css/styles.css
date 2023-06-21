@@ -9,6 +9,12 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+
+}
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 :root{
 --primary-font:'Roboto',sans-serif;
@@ -26,11 +32,19 @@ body{
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5 ;
-    
+}
+.logo{
+    margin-right: 76px;
+    display: flex;
 }
 .header{
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
+}
+.nav{
+    display: flex;
 }
 /*reset*/
 h1,h2,h3,h4,h5,h6,p{
@@ -58,6 +72,8 @@ color: #2E2F42;
 }
 .list{
     list-style: none;
+    display: flex;
+    margin-top: 120px;
 }
 .link{
     text-decoration:none
@@ -72,8 +88,18 @@ color: #2E2F42;
    color:  #404bbf;
 
 }
+.nav-list{
+    display: flex;
+    gap: 40px;
+
+}
 address{
 font-style: normal;
+}
+.address-list{
+    display: flex;
+    gap: 40px;
+
 }
 
 
@@ -88,7 +114,7 @@ font-style: normal;
 .section{
     background-color: #2E2F42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     height: 600px;
 }
 .title{
@@ -124,6 +150,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+gap: 24px;
+
 }
 .section-content-text{
     font-size: 16px;
@@ -131,6 +159,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 background-color: #FFFFFF;
+margin-top: 8px;
 }
 .section-img-title{
     font-size: 36px;
@@ -139,6 +168,9 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-transform: capitalize;
+}
+.section-img{
+    margin-top: 120px;
 }
 .section-team-item{
     background-color: #FFFFFF;
@@ -163,6 +195,7 @@ color: #2E2F42;
     .section-team
     {
         background-color: #F4F4FD;
+        margin-top: 120px;
     }
     .name{
         font-weight: 500;
@@ -178,6 +211,8 @@ color: #434455;
     }
     .footer{
         background-color: #2E2F42;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 .logo-link-span{
     color: #F4F4FD;
