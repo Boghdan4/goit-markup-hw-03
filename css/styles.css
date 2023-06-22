@@ -36,6 +36,7 @@ color: #4d5ae5 ;
 .logo{
     margin-right: 76px;
     display: flex;
+    align-items: center;
 }
 .header{
     display: flex;
@@ -73,7 +74,7 @@ color: #2E2F42;
 .list{
     list-style: none;
     display: flex;
-    margin-top: 120px;
+    gap: 24px;
 }
 .link{
     text-decoration:none
@@ -150,7 +151,10 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-gap: 24px;
+
+}
+.item-item{
+   width: 264px;
 
 }
 .section-content-text{
